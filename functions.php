@@ -293,7 +293,7 @@ function is_odd( ...$is_num){
             echo $numb. 'Number is odd' ."<br />";
             
         }
-        $num[] = (int) $num.$numb;
+        $num[] = (int) $numb;
     }
     return $num;
 }
